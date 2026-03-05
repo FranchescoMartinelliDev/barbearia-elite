@@ -1,79 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Barbearia Elite</title>
+    <title>Loja Modelo Digital</title>
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #111827;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
         }
 
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            width: 400px;
+        header {
+            background: #111827;
+            color: white;
+            padding: 60px 20px;
             text-align: center;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
         }
 
-        h1 {
-            margin-bottom: 10px;
+        header h1 {
+            margin: 0;
+            font-size: 36px;
         }
 
-        p {
-            color: #555;
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
         }
 
-        ul {
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .servicos {
+            background: white;
+        }
+
+        .servicos ul {
             list-style: none;
             padding: 0;
         }
 
-        li {
-            margin: 8px 0;
+        .servicos li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .diferenciais {
+            background: #e5e7eb;
+        }
+
+        .contato {
+            background: white;
         }
 
         button {
-            margin-top: 20px;
-            background-color: #111827;
+            background: #111827;
             color: white;
             border: none;
-            padding: 12px 20px;
+            padding: 15px 25px;
             font-size: 16px;
             border-radius: 8px;
             cursor: pointer;
-            width: 100%;
+            margin-top: 20px;
         }
 
         button:hover {
-            background-color: #374151;
+            background: #374151;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
         }
     </style>
-
 </head>
+
 <body>
 
-    <div class="container">
-        <h1>Barbearia Elite</h1>
-        <p>Estilo e tradição em cada corte.</p>
+<header>
+    <h1>Loja Modelo Digital</h1>
+    <p>Qualidade, confiança e atendimento diferenciado.</p>
+    <button>Fale Conosco</button>
+</header>
 
-        <h2>Serviços</h2>
+<section>
+    <h2>Sobre Nós</h2>
+    <p>Somos uma empresa dedicada a oferecer os melhores produtos e serviços para nossos clientes.</p>
+</section>
 
-        <ul>
-            <li>Corte Masculino</li>
-            <li>Barba</li>
-            <li>Sobrancelha</li>
-        </ul>
+<section class="servicos">
+    <h2>Nossos Serviços</h2>
+    <ul>
+        <li>Venda de Produtos</li>
+        <li>Atendimento Personalizado</li>
+        <li>Suporte Especializado</li>
+    </ul>
+</section>
 
-        <button>Agende pelo WhatsApp</button>
-    </div>
+<section class="diferenciais">
+    <h2>Por Que Escolher Nossa Loja?</h2>
+    <p>✔ Atendimento rápido<br>
+       ✔ Produtos de qualidade<br>
+       ✔ Melhor custo-benefício</p>
+</section>
+
+<section class="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato pelo WhatsApp para mais informações.</p>
+    <button>Chamar no WhatsApp</button>
+</section>
+
+<footer>
+    © 2026 Loja Modelo Digital - Todos os direitos reservados.
+</footer>
 
 </body>
 </html>
